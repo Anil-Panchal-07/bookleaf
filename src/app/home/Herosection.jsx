@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroSection() {
   return (
     <section className="relative max-w-[108rem] mx-auto min-h-screen flex items-center justify-center px-6 bg-cover bg-center">
@@ -16,9 +18,11 @@ export default function HeroSection() {
         </p>
 
         <div className="flex justify-center gap-4">
+          <Link href="/books">
           <button className="bg-[#3F6F6B] text-white px-6 py-3 rounded-md hover:bg-[#2F5F5B] transition">
             Browse Books
           </button>
+          </Link>
 
           <button className="border border-[#FFF8EE] text-[#FFF8EE] px-6 py-3 rounded-md hover:bg-[#FFF8EE] hover:text-[#2F4F4F] transition">
             Sell a Book

@@ -10,9 +10,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h2 className="text-2xl font-bold text-[#2F4F4F] mb-3">
-              bookleaf
-            </h2>
+             <img src='/logo1.png' className="w-50  p-1"/>
             <p className="text-gray-600 text-sm">
               Where old books find new readers.
             </p>
